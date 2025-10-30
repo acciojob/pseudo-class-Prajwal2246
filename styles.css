@@ -1,15 +1,18 @@
-/*  your css code here. If applicable */
-#container{
-	margin:20px;
-	
+/* Apply margin to the container */
+#container {
+  margin: 20px;
 }
-#container::before{
-	content:"hello before";
-	color:#f00;
-	font-size:20px;
+
+/* Insert content before the main content */
+#container::before {
+  content: "Before content - ";
+  color: #f00;
+  font-size: 20px;
 }
-#container::after{
-	content:"hello after";
-	color:#f00;
-	font-size:20px;
+
+/* Insert content after the main content */
+#container::after {
+  content: " - After content";
+  color: #f00;
+  font-size: 20px;
 }
