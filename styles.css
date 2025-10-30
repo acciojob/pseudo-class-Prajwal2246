@@ -3,16 +3,16 @@
   margin: 20px;
 }
 
-/* Insert content before the main content */
+/* Before pseudo-element */
 #container::before {
-  content: "Before content - ";
+  content: "Before Element";
   color: #f00;
   font-size: 20px;
 }
 
-/* Insert content after the main content */
+/* After pseudo-element */
 #container::after {
-  content: " - After content";
+  content: "After Element";
   color: #f00;
   font-size: 20px;
 }
